@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'secp256k1.swift'
-  s.version          = '0.1.4'
+  s.name             = 'Harrysecp256k1.swift'
+  s.version          = '1.0.0'
   s.summary          = 'secp256k1 bindings for swift. Cocoapods, Carthage and SPM support. Linux support.'
 
 # This description is used to generate tags and improve search results.
@@ -22,17 +22,17 @@ This pod binds the bitcoin-core library, the ECDSA curve, secp256k1 into Swift. 
 Bitcoin, Ethereum and many other Cryptocurrency Signature generation and verification.
                        DESC
 
-  s.homepage         = 'https://github.com/Boilertalk/secp256k1.swift'
+  s.homepage         = 'https://github.com/rsZWang/Harrysecp256k1.swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Koray Koska' => 'koray@koska.at' }
-  s.source           = { :git => 'https://github.com/Boilertalk/secp256k1.swift.git', :tag => s.version.to_s, :submodules => true }
+  s.author           = { 'Harry Wang' => 'harry1106.mess@gmail.com' }
+  s.source           = { :git => 'https://github.com/rsZWang/Harrysecp256k1.swift.git', :tag => s.version.to_s, :submodules => true }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.10'
-  s.tvos.deployment_target = '9.0'
-  s.watchos.deployment_target = '2.0'
+  s.ios.deployment_target = '14.0'
+  # s.osx.deployment_target = '10.10'
+  # s.tvos.deployment_target = '9.0'
+  # s.watchos.deployment_target = '2.0'
 
   s.module_name = 'secp256k1'
 
